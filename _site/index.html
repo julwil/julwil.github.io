@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Julius Willems | About me</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Julius Willems" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="About me" />
+<meta property="og:description" content="About me" />
+<link rel="canonical" href="https://julwil.github.io/" />
+<meta property="og:url" content="https://julwil.github.io/" />
+<meta property="og:site_name" content="Julius Willems" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Julius Willems" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://julwil.github.io/","headline":"Julius Willems","description":"About me","name":"Julius Willems","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://julwil.github.io/feed.xml" title="Julius Willems" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Julius Willems</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><!--  -->
+<h1 id="projects">Projects</h1>
+<h2 id="ccd4dt"><strong>CCD4DT</strong></h2>
+<h2 id="visitor-tracking-for-fairs-and-events">Visitor tracking for fairs and events</h2>
+<p>Track the position and path of trade visitors to analyze traction and gain insights into booth performance.
+To improve tracking accuracy, multiple sensor types can be combined (WiFi, RFID, camera). Together with
+a fellow UZH student, we developed a new system that correlates measurements of different sensors and
+predicts the actual position of visitors.</p>
+<ul>
+  <li>Expose REST API for ingestion of measurement data</li>
+  <li>Kalman Filtering to remove noise</li>
+  <li>Coordinate system standardization</li>
+  <li>Clustering and prediction</li>
+  <li>Persistence to InfluxDB and exposure over REST API</li>
+</ul>
+
+<p><img src="/assets/ccs4dt.gif" alt="CCS4DT" style="height: 300px; width:300px;" /></p>
+
+<p><a href="https://github.com/julwil/ccs4dt" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;" />Open in GitHub</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Python / Pandas / InfluxDB / Flask</code></p>
+
+<hr />
+
+<h2 id="dataloc-gmbh"><strong>dataloc GmbH</strong></h2>
+<h2 id="real-time-inventory-tracking-for-hospitals">Real-Time Inventory Tracking for Hospitals</h2>
+<p>As a side project, I founded dataloc. It’s mission is to help hospital staff find portable inventory (wheelchairs,
+beds, infusion pumps) within the hospital building to save time and increase efficiency.</p>
+<ul>
+  <li>Bluetooth Low Energy Beacons (tag inventory)</li>
+  <li>Crowd-sourced, distributed inventory tracking with mobile App (on staff’s smartphone)</li>
+  <li>Centralized processing of tracking data</li>
+  <li>Location prediction of inventory</li>
+  <li>Front-end to visualize inventory location</li>
+</ul>
+
+<p><a href="https:cliniq.ch" target="_blank"><img src="/assets/cliniq.png" alt="clinIQ logo" style="height: 25px; margin-right:5px;" /></a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Bluetooth Low Energy / Python / MQTT / Laravel / React</code></p>
+
+<hr />
+
+<h2 id="nyc-bnb-explorer"><strong>NYC BnB Explorer</strong></h2>
+<h2 id="explore-the-neighbourhoods-of-new-york-airbnbs">Explore the neighbourhoods of New York Airbnbs</h2>
+<p>Together with 3 fellow UZH students we developed a tool to explore and assess the neighbourhoods of Airbnb
+listings in NYC. We collected public datasets on NYC about crime, rodent, and noise complaints. The user can
+explore these datasets within the context of a particular Airbnb listing he/she is interested in.</p>
+<ul>
+  <li>Display Airbnb listings on a NYC map</li>
+  <li>Heatmap layer of crime incidents can be toggled on top of the map</li>
+  <li>Heatmap layer of rodent sightings can be toggled on top of the map</li>
+  <li>Heatmap layer of noise complaint incidents can be toggled on top of the map</li>
+</ul>
+
+<p><img src="/assets/bnb.png" alt="BnB Explorer" />&lt;/img&gt;</p>
+
+<p><a href="https://github.com/UZHASE" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;" />Open in GitHub</a></p>
+
+<p><a href="https://bnbexplorer-frontend.herokuapp.com" target="_blank"><img src="/assets/heroku.png" alt="Heroku logo" style="height: 25px; width:25px; margin-right:5px;" />Deployed to Heroku</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Python / Flask / React</code></p>
+
+<hr />
+
+<h2 id="deathnote"><strong>DeathNote</strong></h2>
+<h2 id="smart-contract-to-settle-an-inheritance">Smart contract to settle an inheritance</h2>
+<p>In the event of a death of a crypto currency holder, heirs can’t access the funds without the deceased’s private
+key. Together with 3 fellow UZH students, we developed a smart contract to address this problem (we were
+dead serious)</p>
+<ul>
+  <li>Smart contract on the Ethereum blockchain</li>
+  <li>Owner charges the smart contract and specifies:</li>
+  <li>List of heirs along with their shares</li>
+  <li>List of voters along with a policy (e.g. m/n votes required)</li>
+  <li>Voters can vote for the owner’s death. As soon as policy is met, owner is considered dead.</li>
+  <li>Without the owner’s objection, smart contract funds are released to heirs after 30 days</li>
+</ul>
+
+<p><img src="/assets/deathnote.png" alt="DeathNote" style="height: 500px; width:800px;" /></p>
+
+<p><a href="https://github.com/UZHBCON/deathnote" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;" />Open in GitHub</a></p>
+
+<p><a href="https://bcon-deathnote.herokuapp.com" target="_blank"><img src="/assets/heroku.png" alt="Heroku logo" style="height: 25px; width:25px; margin-right:5px;" />Deployed to Heroku</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Blockchain / Ethereum / Solidity / React</code></p>
+
+<hr />
+
+<h2 id="bazo"><strong>BAZO</strong></h2>
+<h2 id="blockchain-data-modification-for-gdpr-compliance">Blockchain data modification for GDPR compliance</h2>
+<p>GDPR and its application and compliance issues with blockchains is gaining attention. During my Bachelor
+thesis I developed a solution that allows fine-grained update and erasure operations on transaction fields. A
+cryptographic primitive called “Chameleon Hashing” enables the efficient calculation of hash collisions. These
+collisions can be used to modify the content of transactions</p>
+<ul>
+  <li>Implementation of Chameleon Hash function library in Go</li>
+  <li>Integration of new hashing mechanism in existing BAZO blockchain and its protocol</li>
+  <li>Implementation of “update transactions” to modify on-chain data</li>
+  <li>Implementation of a web-based block explorer to visualize the results</li>
+</ul>
+
+<p><img src="/assets/baz_miner_sequence_diagram.jpg" title="Sequence of an update" alt="Sequence diagram" style="height: 400px; width:800px;" /></p>
+
+<p>Sequence of an UpdateTx</p>
+
+<p><img src="/assets/before_rectification.PNG" title="AccountTX (Before update)" alt="AccountTX (Before update)" style="height: 250px;" /></p>
+
+<p>AccountTX (Before update)</p>
+
+<p><img src="/assets/updatetx.png" title="UpdateTX" alt="UpdateTX" style="height: 250px;" /></p>
+
+<p>UpdateTX</p>
+
+<p><img src="/assets/after_rectification.PNG" title="Account TX (After update)" alt="Account TX (After update)" style="height: 250px;" /></p>
+
+<p>Account TX (After update)</p>
+
+<p><a href="https://github.com/julwil/bazo-miner" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;" />Open in GitHub</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Blockchain / Go / React</code></p>
+
+<hr />
+
+<h2 id="santorini">Santorini</h2>
+<p>We created a digital version of the game <a href="https://roxley.com/products/santorini">Santorini</a>. The challenge on the front-end was to emulate the board game and provide the possibility to create buildings and move figures. On the back-end side, the challenge was to implement the game logic (e.g. rules and superpowers of the individual game characters).</p>
+<ul>
+  <li>Board game visualiation</li>
+  <li>Player matchup (Lobby)</li>
+  <li>Multiplayer version</li>
+  <li>Implement rules and superpowers</li>
+</ul>
+
+<p><img src="/assets/santorini2.png" title="Challenge User" alt="Board" style="" /></p>
+
+<p>Challenge User</p>
+
+<p><img src="/assets/santorini.png" title="Board" alt="Board" style="" /></p>
+
+<p>Santorini Game</p>
+
+<p><a href="https://github.com/julwil/santorini-server" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;" />Open in GitHub</a></p>
+
+<p><a href="https://sopra-willems-julius-client.herokuapp.com" target="_blank"><img src="/assets/heroku.png" alt="Heroku logo" style="height: 25px; width:25px; margin-right:5px;" />Deployed to Heroku</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Java / SpringBoot / React</code></p>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Julius Willems</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Julius Willems</li><li><a class="u-email" href="mailto:j94.willems@gmail.com">j94.willems@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/julwil"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">julwil</span></a></li><li><a href="https://www.linkedin.com/in/julius-willems-269b38124"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">julius-willems-269b38124</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>About me</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
