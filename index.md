@@ -26,9 +26,9 @@ predicts the actual position of visitors.
 
 ---
 
-## **dataloc GmbH**
+## **clinIQ**
 ## Real-Time Inventory Tracking for Hospitals
-As a side project, I founded dataloc. It’s mission is to help hospital staff find portable inventory (wheelchairs,
+As a side project, I created the clinIQ project and founded dataloc GmbH. It’s mission is to help hospital staff find portable inventory (wheelchairs,
 beds, infusion pumps) within the hospital building to save time and increase efficiency.
 - Bluetooth Low Energy Beacons (tag inventory)
 - Crowd-sourced, distributed inventory tracking with mobile App (on staff’s smartphone)
@@ -52,7 +52,7 @@ explore these datasets within the context of a particular Airbnb listing he/she 
 - Heatmap layer of rodent sightings can be toggled on top of the map
 - Heatmap layer of noise complaint incidents can be toggled on top of the map
 
-<img src="/assets/bnb.png" alt="BnB Explorer"></img>
+<img src="/assets/bnb.png" alt="BnB Explorer"/>
 
 <a href="https://github.com/UZHASE" target="_blank"><img src="/assets/github.png" alt="GitHub logo" style="height: 25px; width:25px; margin-right:5px;"/>Open in GitHub</a>
 
