@@ -36,7 +36,7 @@ beds, infusion pumps) within the hospital building to save time and increase eff
 - Location prediction of inventory
 - Front-end to visualize inventory location
 
-<a href="https:cliniq.ch" target="_blank"><img src="/assets/cliniq.png" alt="clinIQ logo" style="height: 25px; margin-right:5px;"/></a>
+<a href="https://cliniq.ch" target="_blank"><img src="/assets/cliniq.png" alt="clinIQ logo" style="height: 25px; margin-right:5px;"/></a>
 
 `Bluetooth Low Energy / Python / MQTT / Laravel / React`
 
